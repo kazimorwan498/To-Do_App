@@ -42,3 +42,7 @@
 #todoLs li div button:last-child {
 	@apply bg-red-700;
 }
+
+#editInput {
+	@apply border-b-2 border-black outline-0 px-1;
+}
