@@ -11,14 +11,30 @@
 	font-family: "Poppins", sans-serif;
 }
 
+#todoLs {
+	@apply max-h-[650px] overflow-y-auto mt-5
+}
+
 #todoLs li {
 	@apply flex justify-between items-center ps-4 pe-2 py-2 rounded-lg bg-white mt-5 text-black;
 }
 
+#todoLs li:first-child {
+	@apply mt-0
+}
+
 #todoLs li div {
-	@apply flex justify-end gap-2 ;
+	@apply flex justify-end gap-2;
 }
 
 #todoLs li div button {
-	@apply bg-green-500 text-black p-2 rounded-md col-span-2 flex items-center justify-center w-[60px];
+	@apply bg-green-800 text-white p-2 rounded-md flex items-center justify-center w-[60px];
+}
+
+#todoLs li div button:nth-child(2) {
+	@apply bg-yellow-800;
+}
+
+#todoLs li div button:last-child {
+	@apply bg-red-700;
 }
