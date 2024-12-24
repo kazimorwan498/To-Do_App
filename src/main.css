@@ -12,7 +12,7 @@
 }
 
 #todoLs {
-	@apply max-h-[650px] overflow-y-auto mt-5
+	@apply max-h-[650px] overflow-y-auto mt-5;
 }
 
 #todoLs li {
@@ -20,11 +20,15 @@
 }
 
 #todoLs li:first-child {
-	@apply mt-0
+	@apply mt-0;
 }
 
 #todoLs li div {
 	@apply flex justify-end gap-2;
+}
+
+#todoLs li span {
+	@apply w-[55%] text-wrap text-lg break-words overflow-x-auto;
 }
 
 #todoLs li div button {
