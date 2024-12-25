@@ -32,15 +32,15 @@
 }
 
 #todoLs li div button {
-	@apply bg-green-800 text-white p-2 rounded-md flex items-center justify-center w-[60px] h-[40px];
+	@apply bg-green-600 text-slate-900 p-2 rounded-md flex items-center justify-center w-[60px] h-[40px];
 }
 
 #todoLs li div button:nth-child(2) {
-	@apply bg-yellow-800;
+	@apply bg-yellow-600;
 }
 
 #todoLs li div button:last-child {
-	@apply bg-red-700;
+	@apply bg-red-600;
 }
 
 #editInput {
