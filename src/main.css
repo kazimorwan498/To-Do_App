@@ -12,11 +12,11 @@
 }
 
 #todoLs {
-	@apply max-h-[650px] overflow-y-auto mt-5;
+	@apply max-h-[500px] overflow-y-auto mt-5;
 }
 
 #todoLs li {
-	@apply flex justify-between items-center ps-4 pe-2 py-2 rounded-lg bg-white mt-5 text-black;
+	@apply flex justify-between items-center ps-4 pe-2 py-2 rounded-lg bg-slate-900 text-white mt-5;
 }
 
 #todoLs li:first-child {
@@ -44,5 +44,5 @@
 }
 
 #editInput {
-	@apply border-b-2 border-black outline-0 px-1 w-[75%] sm:w-[55%];
+	@apply border-b-2 border-gray-400 outline-0 px-1 w-[75%] sm:w-[55%] bg-transparent;
 }
