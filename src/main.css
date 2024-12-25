@@ -44,5 +44,5 @@
 }
 
 #editInput {
-	@apply border-b-2 border-black outline-0 px-1;
+	@apply border-b-2 border-black outline-0 px-1 w-[75%] sm:w-[55%];
 }
